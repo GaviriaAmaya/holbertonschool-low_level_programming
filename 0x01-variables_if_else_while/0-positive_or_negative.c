@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * Main - Entry point
+ * main - Entry point
  *
  * Prints positive, negative or zero at the n variable
  *
