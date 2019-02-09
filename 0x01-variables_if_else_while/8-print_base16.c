@@ -5,7 +5,7 @@
 /**
  * main - Entry point
  *
- * Prints numbers in base 10 without printf and char
+ * Hexadecimal
  *
  * Return: Always success (0)
  */
@@ -14,8 +14,13 @@ int main(void)
 
 {
 int c;
-for (c = '48'; c <= 57; c++)
+for (c = 48; c <= 102; c++)
+{
+if ((c >= 48 && c <= 57) || (c >= 97 && c <= 102))
+{
 putchar(c);
+}
+}
 putchar('\n');
 return (0);
 }
