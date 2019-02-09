@@ -5,7 +5,7 @@
 /**
  * main - Entry point
  *
- * Prints alpabet without q and e, using putchar function
+ * Prints the alphabet in lowercase and uppercase, only with putchar function
  *
  * Return: Always success (0)
  */
@@ -15,10 +15,9 @@ int main(void)
 {
 char c;
 for (c = 'a'; c <= 'z'; c++)
-{
-if (c != 'q' && c != 'e')
 putchar (c);
-}
-putchar('\n');
+for (c = 'A'; c <= 'Z'; c++)
+putchar (c);
+putchar ('\n');
 return (0);
 }
