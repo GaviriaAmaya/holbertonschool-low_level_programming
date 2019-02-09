@@ -1,5 +1,9 @@
 #include <stdio.h>
-
+/*
+*Have to do this?
+*
+*Can´t believe
+*/
 int main(void)
 {
 printf("Size of a char: %lu byte(s)\n", sizeof(char));
