@@ -1,0 +1,37 @@
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
+
+/**
+* main - Entry point
+*
+* Prints last digit of a random value of n
+*
+* Return: Always success (0)
+*/
+
+int main(void)
+
+{
+int n;
+int ender;
+
+srand(time(0));
+
+n = rand() - RAND_MAX / 2;
+ender = n % 10;
+
+if (ender > 5)
+{
+printf("Last digit of %d is %d and is greater than 5\n", n, ender);
+}
+else if (ender == 0)
+{
+printf("Last digit of %d is %d and is 0\n", n, ender);
+}
+else
+{
+printf("Last digit of %d is %d and is less than 6 and not 0\n", n, ender);
+}
+return (0);
+}
