@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- *main - Prints the alphabet once, using the prototyped function _putchar
+ *print_alphabet - Prints the alphabet once, using function _putchar
  *
  *return - Always success
  */
