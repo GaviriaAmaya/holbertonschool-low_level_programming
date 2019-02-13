@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
  *_isalpha - Detects and prints 1 if 'c' is alphabetic
- *
+ *@c: Character
  * Return: On success 1.
  *
  */
