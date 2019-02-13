@@ -6,23 +6,26 @@
  *Return: Always success
  */
 
-int print_sign(int n);
+int print_sign(int n)
 
 {
 if (n < 48)
 {
-print_sign('-', n);
+_putchar('-');
 return (-1);
 }
-else if (n > 48)
+else
 {
-print_sign('+', n);
+if (n > 48)
+{
+_putchar('+');
 return (1);
 }
 else
 {
-print_sign('0', n);
+_putchar('0');
 return (0);
 }
-_putchar('\n')
+}
+_putchar('\n');
 }
