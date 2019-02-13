@@ -17,4 +17,5 @@ else
 n = n * -1;
 return (n);
 }
+ _putchar('\n');
 }
