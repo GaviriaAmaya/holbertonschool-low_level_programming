@@ -26,7 +26,6 @@ _putchar (hour2 + 48);
 _putchar (58);
 _putchar (min1 + 48);
 _putchar (min2 + 48);
-_putchar (' ');
 _putchar ('\n');
 }}}}}
 }
