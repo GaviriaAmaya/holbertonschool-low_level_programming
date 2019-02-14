@@ -8,22 +8,18 @@
 
 void print_to_98(int n)
 {
-int minor, major;
-for (minor = n, n < 98, n++)
-{
-printf('%d', n);
-putchar(',');
-putchar(' ');
 
-for (major = n, n > 98, n--)
+while (n < 98)
 {
-printf('%d', n);
-putchar(',');
-putchar(' ');
+       printf("%d, ", n);
+       n++;
 }
-if (n == 98)
+while (n > 98)
 {
-printf('%d\n', n);
+	printf("%d, ", n);
+	n--;
 }
-}
+printf("%d", n);
+putchar('\n');
+
 }
