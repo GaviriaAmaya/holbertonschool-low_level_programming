@@ -3,7 +3,7 @@
  *add - Operates two variables
  *@a, @b: Integers
  *
- *Return: Result
+ *return: Result
  */
 
 int add(int a, int b)
@@ -11,5 +11,6 @@ int add(int a, int b)
 {
 int result = a + b;
 
-return (result);
+return(result);
+
 }
