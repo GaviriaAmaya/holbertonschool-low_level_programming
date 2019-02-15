@@ -8,19 +8,30 @@
 
 void print_to_98(int n)
 {
+
 int minor, major;
 for (minor = n, n < 98, n++)
 {
 printf('%d ,', n);
 
-for (major = n, n > 98, n--)
+
+
+while (n < 98)
 {
+<<<<<<< HEAD
 printf('%d ,', n);
 
+=======
+       printf("%d, ", n);
+       n++;
+>>>>>>> 797039a7f085e3b1f770e438124fc9f77b64c385
 }
-if (n == 98)
+while (n > 98)
 {
-printf('%d\n', n);
+	printf("%d, ", n);
+	n--;
 }
-}
+printf("%d", n);
+putchar('\n');
+
 }
