@@ -24,10 +24,10 @@ if (a >= 10)
 _putchar (dec + 48);
 }
 if (a >= 0)
-{			
+{
 _putchar (units + 48);
 }
-}	
+}
 _putchar ('\n');
 }
 }
