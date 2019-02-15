@@ -11,15 +11,12 @@ void print_to_98(int n)
 int minor, major;
 for (minor = n, n < 98, n++)
 {
-printf('%d', n);
-putchar(',');
-putchar(' ');
+printf('%d ,', n);
 
 for (major = n, n > 98, n--)
 {
-printf('%d', n);
-putchar(',');
-putchar(' ');
+printf('%d ,', n);
+
 }
 if (n == 98)
 {
