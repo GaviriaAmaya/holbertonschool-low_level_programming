@@ -15,16 +15,19 @@ int dec;
 
 for (b = 0; b < 9; b++)
 {
-	for (a = 0; a <= 14; a++)
-		{
-			units = (a % 10);
-			dec = (a / 10);
-			_putchar (units + 48);
-			if (a > 8)
-			{
-			_putchar (dec + 48);
-			}
-		}
-		_putchar ('\n');
+for (a = 0; a <= 14; a++)
+{
+dec = (a / 10);
+units = (a % 10);
+if (a >= 10)
+{
+_putchar (dec + 48);
+}
+if (a >= 0)
+{			
+_putchar (units + 48);
+}
+}	
+_putchar ('\n');
 }
 }
