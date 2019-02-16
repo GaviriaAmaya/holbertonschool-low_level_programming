@@ -9,27 +9,26 @@
 void print_diagonal(int n)
 
 {
-  int clm, rws;
+int clm, rws;
 
-  if (n <= 0)
-    _putchar('\n');
-    
-      for (rws = 0; rws < n; rws++)
-	{
-	  for (clm = 0; clm < n; clm++)
-	    {
-	    
-	      if (clm == rws)
-		{
-		_putchar(92);
-		_putchar('\n');
-		}
-	    
-	  else
-	    {
-	      if (clm < rws)
-		_putchar(32);
-	      }
-	    }
-	}
+if (n <= 0)
+_putchar('\n');
+for (rws = 0; rws < n; rws++)
+{
+for (clm = 0; clm < n; clm++)
+{
+
+if (clm == rws)
+{
+_putchar(92);
+_putchar('\n');
+}
+
+else
+{
+if (clm < rws)
+_putchar(32);
+}
+}
+}
 }
