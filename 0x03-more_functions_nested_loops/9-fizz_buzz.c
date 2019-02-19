@@ -10,19 +10,24 @@ int main(void)
 {
 int f;
 
-for (f = 0; f <= 100; f++)
-{
-if ((f % 3) == 0)
-{
-printf("Fizz");
-}
+ for (f = 0; f <= 100; f++)
+   if ((f % 3) == 0 || (f % 5) == 0)
+   {
+     if ((f % 3) == 0)
+   {
+     printf("Fizz");
+   }
 
-if ((f % 5) == 0)
-{
-printf("Buzz");
-}
-printf("%d ", f);
-}
+     if ((f % 5) == 0)
+       {
+	 printf("Buzz");
+       }
+   }
+
+   else
+   {
+   printf("%d ", f);
+   }
 putchar('\n');
 return (0);
 }

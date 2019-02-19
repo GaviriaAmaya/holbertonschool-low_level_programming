@@ -1,0 +1,1 @@
+Current directory is to learn Arrays, Strings and Pointers. It´s also useful to understand the functions in C
