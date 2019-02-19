@@ -1,0 +1,15 @@
+#include "holberton.h"
+/**
+ *swap_int - Change the values from a to b, and visceversa
+ *
+ *
+ *
+ */
+void swap_int(int *a, int *b)
+{
+	int s;
+
+	s = *a;
+	*b = s;
+	*a = *b;
+}
