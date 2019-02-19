@@ -23,3 +23,4 @@ void print_triangle(int size);
 void print_square(int size);
 
 void reset_to_98(int *n);
+int _strlen(char *s);
