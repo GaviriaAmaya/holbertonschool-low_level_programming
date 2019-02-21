@@ -7,6 +7,9 @@
 int _strlen(char *s)
 {
 	int n;
-	while (n < )
-
+	n = 0;
+	while (s == 0)
+	{
+		_putchar(n);
+	}
 }
