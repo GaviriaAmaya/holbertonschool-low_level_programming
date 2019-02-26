@@ -25,8 +25,6 @@ void print_square(int size);
 void reset_to_98(int *n);
 void swap_int(int *a, int *b);
 int _strlen(char *s);
-<<<<<<< HEAD
-=======
 void _puts(char *str);
 void print_rev(char *s);
 void puts_half(char *str);
@@ -34,4 +32,6 @@ void puts2(char *str);
 void rev_string(char *s);
 void print_array(int *a, int n);
 char *_strcpy(char *dest, char *src);
->>>>>>> 5488d8af0bf62b1f17f1d9b9da5a81236351c2a3
+
+char *_strcat(char *dest, char *src);
+char *_strncat(char *dest, char *src, int n); 
