@@ -3,7 +3,7 @@
  * _memcpy - Copies the content of a string to another
  *@src: Source string
  *@dest: Destination string
- *
+ *@n: Times that repeats
  *Return: Determined by dest variable
  */
 
