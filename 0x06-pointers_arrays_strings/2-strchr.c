@@ -11,14 +11,14 @@ char *_strchr(char *s, char c)
 	int counter;
 
 
-	for (counter = 0; s[counter] != '\0'; counter++)
+	for (counter = 0; s[counter] != '\0'; counter++) /*counter is position*/
 	{
 		if (s[counter] == c)
 		{
 		return (&s[counter]);
 		}
 	}
-	if (s[counter] == c)
+	if (s[counter] == c) /*Takes the position of c in '\0'*/
 	{
 	return (&s[counter]);
 	}

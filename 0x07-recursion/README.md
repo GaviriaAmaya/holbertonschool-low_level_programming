@@ -1,0 +1,1 @@
+Understanding the recursion. How to use a funtction as a loop and put limitations
