@@ -2,16 +2,19 @@
 /**
  *main - Function that prints the name of the function
  *@argc: Number of aguments of the main function
- *@argc: String that saves every argument
+ *@argv: String that saves every argument
  *
  *Return: Always success (0)
  */
 
 int main(int argc, char *argv[])
 {
+	int counter = 0;
 
-(void)argc;
-printf("%s\n", argv[0]);
-return (0);
-
+	while (counter < argc)
+	{
+	printf("%s\n", argv[counter]);
+	counter++;
+	}
+	return (0);
 }
