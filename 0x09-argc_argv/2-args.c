@@ -9,9 +9,12 @@
 
 int main(int argc, char *argv[])
 {
+	int counter = 0;
 
-(void)argv;
-printf("%i\n", argc - 1);
-return (0);
-
+	while (counter < argc)
+	{
+	printf("%s\n", argv[counter]);
+	counter++;
+	}
+	return (0);
 }
