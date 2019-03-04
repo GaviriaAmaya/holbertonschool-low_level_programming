@@ -12,14 +12,14 @@ int main(int argc, char *argv[])
 {
 	int eins, swei, result;
 
-	if (argc != 3)
+	if (argc <= 0)
 	{
-		printf("Error\n");
+		printf("0\n");
 		return (0);
 	}
 	eins = atoi(argv[1]);
 	swei = atoi(argv[2]);
-	result = eins * swei;
+	result = eins + swei;
 	printf("%i\n", result);
 	return (0);
 
