@@ -1,0 +1,31 @@
+#include "holberton.h"
+#include <stdlib.h>
+/**
+ *create_array - Pointer to the first position of the array
+ *
+ *
+ *
+ */
+char *create_array(unsigned int size, char c)
+{
+	unsigned int count;
+	char *p;
+
+	if (size == 0)
+	{
+		return (NULL);
+	}
+
+	p = malloc(size * sizeof(char));
+
+	for (count = 0; count < size; count++)
+	{
+		p[count] = c;
+	}
+
+	if (p == NULL)
+	{
+		return (NULL);
+	}
+	return (p);
+}
