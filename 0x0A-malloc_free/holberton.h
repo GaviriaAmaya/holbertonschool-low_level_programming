@@ -49,3 +49,4 @@ int _strlen_recursion(char *s);
 int factorial(int n);
 
 char *create_array(unsigned int size, char c);
+char *_strdup(char *str);
