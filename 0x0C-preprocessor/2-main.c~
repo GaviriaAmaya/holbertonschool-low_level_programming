@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+#ifndef __FILE__
+#define __FILE__
+#endif
+/**
+ *
+ *
+ *
+ */
+int main(void)
+{
+	printf(__FILE__);
+	putchar('\n');
+	return (0);
+}
