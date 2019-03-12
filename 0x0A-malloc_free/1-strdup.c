@@ -1,5 +1,6 @@
 #include "holberton.h"
 #include <stdlib.h>
+#include <stdio.h>
 /**
  *_strdup - Duplicates an string
  *@str: Source string
@@ -12,24 +13,23 @@ char *_strdup(char *str)
 
 	if (!str)
 	{
-		return (NULL);
+		return (0);
 	}
 
 		for (i = 0; str[i] != '\0'; i++)
 		{
-		}
+		p = malloc(i * sizeof(char) + 1);
 
-	p = malloc(i * sizeof(char) + 1);
-
-	if (p == NULL)
-	{
+		if (p == NULL)
+		{
 		return (NULL);
-	}
+		}
 
 		for (i2 = 0; i2 < i; i2++)
 		{
 		p[i2] = str[i];
-		p[i2] = '\0';
+		/*p[i2] = '\0';*/
+return (p);
 		}
-	return (p);
+		}
 }
