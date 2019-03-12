@@ -1,5 +1,6 @@
 #ifndef dog_h
 #define dog_h
+
 /**
  *struct dog - Structure of strings and float, about data of a dog
  *@name: String that means the name of the dog
@@ -15,5 +16,6 @@ struct dog
 };
 void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
+typedef struct dog dog_t;
 
 #endif
