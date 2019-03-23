@@ -9,10 +9,11 @@
 size_t print_list(const list_t *h)
 {
 	int counter;
-	for(counter = 0; h != NULL; counter++)
+
+	for (counter = 0; h != NULL; counter++)
 	{
 		if (h->str == NULL)
-		        {
+			{
 			printf("[0] %p\n", h->str);
 			}
 		else
