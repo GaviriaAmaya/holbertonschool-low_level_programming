@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- *list-len - Prints the lenght of a list
+ *list_len - Prints the lenght of a list
  *@h: Node to list
  *
  *Return: Lenght
@@ -15,7 +15,7 @@ if (h != NULL)
 	{
 	return (counter + 1);
 	}
-	counter ++;
+	counter++;
 	return (counter + list_len(h->next));
 	}
 return (counter);
