@@ -1,0 +1,25 @@
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include "lists.h"
+/**
+ *pop_listint - 
+ *
+ *
+ *
+ */
+int pop_listint(listint_t **head)
+{
+	listint_t *aux;
+	int i = 0;
+
+	if (*head != NULL)
+	{
+		aux = *head;
+		i = aux->n;
+		*head = aux->next;
+		free(aux);
+
+	}
+	return (0);
+}
