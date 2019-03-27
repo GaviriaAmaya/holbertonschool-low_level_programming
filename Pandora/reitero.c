@@ -6,6 +6,6 @@
  */
 int main(void)
 {
-	recursive_je_t_aime("Te reitero que te amo montones");
+	recursive_je_t_aime("L'essentiel, fille, est invisible pour les yeux");
 	return (0);
 }
