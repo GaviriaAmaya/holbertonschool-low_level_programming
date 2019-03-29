@@ -1,5 +1,4 @@
 #include "holberton.h"
-#include <stdio.h>
 /**
  *clear_bit - Sets the value of a bit to 1
  *@n: Pointer to the number
@@ -14,6 +13,6 @@ int clear_bit(unsigned long int *n, unsigned int index)
 	{
 		return (-1);
 	}
-	*n = ~mask << index & *n;
+	*n = ~(mask << index) & *n;
 	return (1);
 }
