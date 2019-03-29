@@ -7,7 +7,7 @@ void print_binary(unsigned long int n)
 {
 	unsigned long int copy;
 
-	for (copy = 128; copy > 0; copy >>= 1)
+	for (copy = 64; copy > 0; copy >>= 1)
 	{
 		if (copy & n)
 			_putchar(49);
