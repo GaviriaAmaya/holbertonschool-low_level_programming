@@ -5,11 +5,11 @@
  */
 void print_binary(unsigned long int n)
 {
-	char number;
+	unsigned long int copy;
 
-	for (number = 0; number > 0; number >> 1)
+	for (copy = 128; copy > 0; copy >>= 1)
 	{
-		if (n & number)
+		if (copy & n)
 			_putchar(49);
 		else
 			_putchar(48);

@@ -3,7 +3,7 @@
 int main(void)
 {
 	unsigned int i = 128;
-	char number = 81;
+	unsigned int number = 5;
 
 	for (i; i > 0; i >>= 1)
 	{
