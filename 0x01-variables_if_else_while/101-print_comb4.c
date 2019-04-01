@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *main - Prints the two digits all posible combinations
+ *main - Prints all posible combinations between 3 digits
  *
  *Return: 0, always success
  */
