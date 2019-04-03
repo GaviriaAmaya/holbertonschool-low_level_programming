@@ -26,11 +26,18 @@ ssize_t read_textfile(const char *filename, size_t letters)
 
 	if (size == -1)
 	{
+		free(buffer);
 		close(size);
 		return (0);
 	}
 
-	write(1, buffer, letters);
+	if ((write(1, buffer, letters)) == -1)
+	{
+		free(buffer);
 		close(fd);
-		return (size);
+		return (0);
+	}
+	free(buffer);
+	close(fd);
+	return (size);
 }
