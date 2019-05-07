@@ -6,7 +6,6 @@
  *@needle: String to locate
  *Return: depends on the function args
  */
-
 char *_strstr(char *haystack, char *needle)
 {
 int i, j;
@@ -25,7 +24,7 @@ int size = 0;
 				{
 				if (j == size)
 				{
-		  		return (haystack + i);
+				return (haystack + i);
 				}
 			}
 		}

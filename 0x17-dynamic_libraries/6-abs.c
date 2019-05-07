@@ -1,11 +1,9 @@
 #include "holberton.h"
 /**
- *
  *_abs - Return absolute value
- *
+ *@n: Lalalal
  *Return: Always success
  */
-
 int _abs(int n)
 {
 if (n >= 0)
@@ -17,5 +15,5 @@ else
 n = n * -1;
 return (n);
 }
- _putchar('\n');
+_putchar('\n');
 }
