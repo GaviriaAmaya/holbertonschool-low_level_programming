@@ -4,9 +4,7 @@
 
 /**
  * main - Entry point
- *
  * Prints positive, negative or zero at the n variable
- *
  * Return: Always success (0)
  */
 

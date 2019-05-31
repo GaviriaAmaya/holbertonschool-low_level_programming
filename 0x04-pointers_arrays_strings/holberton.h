@@ -1,3 +1,5 @@
+#ifndef HOLBERTON_H
+#define HOLBERTON_H
 int _putchar(char);
 void print_alphabet(void);
 void print_alphabet_x10(void);
@@ -35,3 +37,4 @@ void rev_string(char *s);
 void print_array(int *a, int n);
 char *_strcpy(char *dest, char *src);
 
+#endif
