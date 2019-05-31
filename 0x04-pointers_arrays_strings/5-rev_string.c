@@ -7,6 +7,7 @@
  */
 
 void rev_string(char *s)
+<<<<<<< HEAD
 {
 	int i = 0, j;
 
@@ -26,4 +27,23 @@ void rev_string(char *s)
 
 	while (s[j] > 0)
 	j--; */
+=======
+{  
+	int len = 0;
+	int itc = 0;
+	int rev;
+
+	while (s[len] != '\0')
+	len++;
+
+	while (len >= 0)
+        {
+	rev[itc] = s[len];
+	itc++;
+	len--;
+	}
+	
+	rev[itc + 1];
+	  _putchar('\0');
+>>>>>>> c12b7c66e263a5a400ec58f862c5582f27f503de
 }
