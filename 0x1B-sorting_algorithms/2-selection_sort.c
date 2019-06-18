@@ -20,10 +20,10 @@ void selection_sort(int *array, size_t size)
 				{
 					index = j;
 				}
-				aux = array[i];
-				array[i] = array[index];
-				array[index] = aux;
 			}
+			aux = array[i];
+			array[i] = array[index];
+			array[index] = aux;
 			print_array(array, size);
 		}
 	}
