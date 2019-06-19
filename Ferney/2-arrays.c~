@@ -1,0 +1,10 @@
+#include <stdio.h>
+/**
+* Array: [] Coleccion, typado, tamano
+*String: char variable [] = "Contenido"  /* Ultima pos. /0 */
+*
+*
+*/
+int main(void)
+
+
