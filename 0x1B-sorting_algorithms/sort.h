@@ -21,6 +21,6 @@ void print_array(const int *array, size_t size);
 void bubble_sort(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
 void selection_sort(int *array, size_t size);
-void quick_sort(int *array, size_t size);
 void recursive_quick_sort(int *array, size_t size, int *print, size_t size2);
+void quick_sort(int *array, size_t size);
 #endif
