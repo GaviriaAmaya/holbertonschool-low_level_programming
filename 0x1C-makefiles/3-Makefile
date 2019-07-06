@@ -1,8 +1,8 @@
 CC=gcc
 SRC=*.c
-OBJ= $(SRC:.c=.o)
+OBJ= $(SRC:%.c=%.o)
 NAME=holberton
-RM= rm -rf
+RM= rm -f
 
 all: $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
