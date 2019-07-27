@@ -1,8 +1,4 @@
-	.file	"5-printf.c"
-	.section	.rodata
-	.align 8
-.LC0:
-	.string	"with proper grammar, but the outcome is a piece of art,"
+	.file	"main.c"
 	.text
 	.globl	main
 	.type	main, @function
@@ -14,8 +10,6 @@ main:
 	.cfi_offset 6, -16
 	movq	%rsp, %rbp
 	.cfi_def_cfa_register 6
-	movl	$.LC0, %edi
-	call	puts
 	movl	$0, %eax
 	popq	%rbp
 	.cfi_def_cfa 7, 8
