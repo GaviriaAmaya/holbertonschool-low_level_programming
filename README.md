@@ -1,28 +1,43 @@
-## 0x00. AirBnB clone - The console
+<img src="https://camo.githubusercontent.com/c5d27ff0111c29e03f64bc98ffd377b21d294db6/68747470733a2f2f7777772e686f6c626572746f6e7363686f6f6c2e636f6d2f686f6c626572746f6e2d6c6f676f2d747769747465722d636172642e706e67">
+Holberton School; Cohort 8: Bog 2019
 
-<img src="https://holbertonintranet.s3.amazonaws.com/uploads/medias/2018/6/65f4a1dd9c51265f49d0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUXW7JF5MT%2F20190703%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20190703T193159Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=c698847c3eeea1c84769c447f64436adf6080e10c5c150bca0c4d40e36b0e078">
+# 0x00. Hello World
+<background img src="https://intranet.hbtn.io/assets/holberton-logo-default-f524735c3d53aec88994dbb6130b16941bb20dc6cd437c99209906fab967b834.png">
 
-### Learning Objectives
+## Learning Objectives
 With the development of this project you learn the following:
 
-* How to create a Python package
-* How to create a command interpreter in Python using the cmd module
-* What is Unit testing and how to implement it in a large project
-* How to serialize and deserialize a Class
-* How to write and read a JSON file
-* How to manage datetime
-* What is an UUID
-* What is args and how to use it
-* What is kwargs and how to use it
-* How to handle named arguments in a function
+### * What are the arithmetic operators and how to use them
 
+Arithmetic operators are the very basic operators between two or more variables. These are addition, substraction, multiplication, division and modulus. Depending on what result you want to obtain, there are useful tools to do some procedures.
 
-### Project diagram
+_Name_           | _Symbol_| _Description_                   |
+-----------------|---------|---------------------------------|
+Plus             |    +    |Calculates the adition operation |
+Minus            |    -    |Performs the substraction        |
+Asterisk         |    *    |Multiplication sign              |
+Slash            |    /    |Exact division symbol            |
+Percent          |    %    |Divides and operates with module |
 
-<img src="https://holbertonintranet.s3.amazonaws.com/uploads/medias/2018/6/815046647d23428a14ca.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUXW7JF5MT%2F20190703%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20190703T193159Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=8cb66352e9426e820c42de528c5b3c7c1e70f37a48ca1ac656f7c2510cab3ef0">
+### * What are the logical operators (sometimes called boolean operators) and how to use them
 
+Proving
 
-## How to star
+### * What the the relational operators and how to use them
+### * What values are considered TRUE and FALSE in C
+### * What are the boolean operators and how to use them
+### * How to use the if, if ... else statements
+### * How to use comments
+### * How to declare variables of types char, int, unsigned int
+### * How to assign values to variables
+### * How to print the values of variables of type char, int, unsigned int with printf
+### * How to use the while loop
+### * How to use variables with the while loop
+### * How to print variables using printf
+### * What is the ASCII character set
+### * What are the purpose of the gcc flags -m32 and -m64
+
+## How to start
 
 1. Clone the repository
 
@@ -36,18 +51,12 @@ It is necessary to have python 3.4 installed
 
 The following are the files used.
 
-Name             | Public class attributes    |
-----------       | ------------               |
-State            | mame                       |
-City             | state_id, name             |
-Amenity          | name                       |
+
 Place            | city_id, user_id, name     |
 Place            | description, number_rooms  |
 Place            | number_bathrooms,max_guest |
 Review           | place_id, user_id, text    |
 
 
-## Autors
-
-* Juan Gaviria.
-* Giovanny Rubio.
+## Author
+* Juan Amaya Gaviria.
