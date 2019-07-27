@@ -1,13 +1,20 @@
 ## 0x00. Hello World
-Holberton School; Cohort 8: Bog 2019
 <img src="https://intranet.hbtn.io/assets/holberton-logo-default-f524735c3d53aec88994dbb6130b16941bb20dc6cd437c99209906fab967b834.png">
 
 ## Learning Objectives
 With the development of this project you learn the following:
 
-##* What are the arithmetic operators and how to use them
+# * What are the arithmetic operators and how to use them
 
-Arithmetic operators are the very basic operators between two or more variables. These are addition ("+"), substraction ("-"), multiplication ("*"), division ("/") and modulus ("%"). Depending on what result you want to obtain, there are useful tools to do some procedures.
+Arithmetic operators are the very basic operators between two or more variables. These are addition, substraction, multiplication, division and modulus. Depending on what result you want to obtain, there are useful tools to do some procedures.
+
+_Name_           | _Symbol_| _Description_                   |
+-----------------|---------|---------------------------------|
+Plus             |    +    |Calculates the adition operation |
+Minus            |    -    |Performs the substraction        |
+Asterisk         |    *    |Multiplication sign              |
+Slash            |    /    |Exact division symbol            |
+Percent          |    %    |Divides and operates with module |
 
 * What are the logical operators (sometimes called boolean operators) and how to use them
 
@@ -41,11 +48,7 @@ It is necessary to have python 3.4 installed
 
 The following are the files used.
 
-Name             | Public class attributes    |
-----------       | ------------               |
-State            | mame                       |
-City             | state_id, name             |
-Amenity          | name                       |
+
 Place            | city_id, user_id, name     |
 Place            | description, number_rooms  |
 Place            | number_bathrooms,max_guest |
@@ -55,3 +58,4 @@ Review           | place_id, user_id, text    |
 ## Author
 * Juan Amaya Gaviria.
 
+Holberton School; Cohort 8: Bog 2019
