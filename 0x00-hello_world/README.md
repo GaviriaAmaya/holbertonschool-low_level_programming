@@ -7,11 +7,11 @@ With the development of this project you learn the following:
 
 ##* What are the arithmetic operators and how to use them
 
-	Arithmetic operators are the very basic operators between two or more variables. These are addition ("+"), substraction ("-"), multiplication ("*"), division ("/") and modulus ("%"). Depending on what result you want to obtain, there are useful tools to do some procedures.
+Arithmetic operators are the very basic operators between two or more variables. These are addition ("+"), substraction ("-"), multiplication ("*"), division ("/") and modulus ("%"). Depending on what result you want to obtain, there are useful tools to do some procedures.
 
-##* What are the logical operators (sometimes called boolean operators) and how to use them
+* What are the logical operators (sometimes called boolean operators) and how to use them
 
-	Proving
+Proving
 
 * What the the relational operators and how to use them
 * What values are considered TRUE and FALSE in C
