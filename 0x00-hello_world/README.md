@@ -1,62 +1,73 @@
-<img src="https://camo.githubusercontent.com/c5d27ff0111c29e03f64bc98ffd377b21d294db6/68747470733a2f2f7777772e686f6c626572746f6e7363686f6f6c2e636f6d2f686f6c626572746f6e2d6c6f676f2d747769747465722d636172642e706e67">
-Holberton School; Cohort 8: Bog 2019
+>>>>>>>>>><img src="https://camo.githubusercontent.com/c5d27ff0111c29e03f64bc98ffd377b21d294db6/68747470733a2f2f7777772e686f6c626572746f6e7363686f6f6c2e636f6d2f686f6c626572746f6e2d6c6f676f2d747769747465722d636172642e706e67">
 
 # 0x00. Hello World
-<background img src="https://intranet.hbtn.io/assets/holberton-logo-default-f524735c3d53aec88994dbb6130b16941bb20dc6cd437c99209906fab967b834.png">
 
-## Learning Objectives
+## Learning Objectives.
 With the development of this project you learn the following:
 
-#### * What are the arithmetic operators and how to use them
+#### * Why C programming is awesome
+>C programming allows you to learn the logic of the programming and have better practices in a real world. If I'd have\ to learn to program again, I'd choose C for sure.
 
-Arithmetic operators are the very basic operators between two or more variables. These are addition, substraction, multiplication, division and modulus. Depending on what result you want to obtain, there are useful tools to do some procedures.
+#### * Who invented C
+> Monsieur [Dennis Ritchie](https://en.wikipedia.org/wiki/Dennis_Ritchie "Dennis Ritchie")
 
-_Name_           | _Symbol_| _Description_                   |
------------------|---------|---------------------------------|
-Plus             |    +    |Calculates the adition operation |
-Minus            |    -    |Performs the substraction        |
-Asterisk         |    *    |Multiplication sign              |
-Slash            |    /    |Exact division symbol            |
-Percent          |    %    |Divides and operates with module |
+#### * Who are Dennis Ritchie, Brian Kernighan and Linus Torvalds
+> Dennis Ritchie was the creator of C programming language. Also, created the UNIX OS
+> Brian Kernighan was the co-author of the book "C programming language". Technically, the man page of C. Also worked on UNIX developement
+> Linus Torvalds is the creator of Linux Kernel. Also, is the principaal developer of it, and created the distributed version control Git
 
-#### * What are the logical operators (sometimes called boolean operators) and how to use them
+#### * What happens when you type gcc main.c
+> This is the way to compile your main C file. GCC is the GNU Compiler Collection. Works translating the Super High Level instructions (Human readable programming) into binary, passing through the preprocessing process, the compile process, the assembler code and linking.
+> See [Grace Hopper](https://en.wikipedia.org/wiki/Grace_Hopper "Grace Hopper") (Yes, this is in your honor!)
+> Also [this](https://medium.com/@729_78111/gcc-compile-et-impera-518d91cd25c1 "this")
 
-Proving
+#### * What is an entry point
+> Are the first intructions of a program, the procedure of starting. Generally is the use of <main>, but also some libraries allows certain functions and have to be loaded.
 
-#### * What the the relational operators and how to use them
-#### * What values are considered TRUE and FALSE in C
-#### * What are the boolean operators and how to use them
-#### * How to use the if, if ... else statements
-#### * How to use comments
-#### * How to declare variables of types char, int, unsigned int
-#### * How to assign values to variables
-#### * How to print the values of variables of type char, int, unsigned int with printf
-#### * How to use the while loop
-#### * How to use variables with the while loop
-#### * How to print variables using printf
-#### * What is the ASCII character set
-#### * What are the purpose of the gcc flags -m32 and -m64
+#### * What is <main>
+> Main refers to the entry point of a program in C. Normally, <main> can receive arguments (argc and argv) and can return 1 or 0, or not return anything if is declared as <void>
 
-## How to start
+#### * How to print text using printf, puts and putchar
+> All of those functions have similar syntax. At first is necesary the library <stdio.h> that allows to manage resulting operations on the standard input/output. The standard input is the physical resource that you use to communicate with the command prompt or your computer (Keyboard, as an example). The standard output shows operations through the screen or the command prompt.
+> The functions printf and puts can print strings, formated in first case, and literal on second. Putchar prints only one character per return. The syntax is <function("string or %format specifier");>, basically.
 
-1. Clone the repository
+#### * How to get the size of a specific type using the unary operator sizeof
+> Sizeof operator can obtain size of many types, standard or created. This will be too important in allocations of memory and other operations tha implies the use of memory per type. The syntax is, basically <sizeof(type);> to obtain it. It should be saved on a variable to be used in a function.
 
-```bash
-git clone https://github.com/GioRubioHolberton/AirBnB_clone.git
-```
+#### * How to compile using gcc
+> GCC is used as a normal command, being the firs argument itself and next arguments can be specific flags (as -Wall, see <man gcc>) or just the files to be compiled. Always will be a reference to the entry point main, so it's important to compile with the main file.
+> See [argument](https://www.quora.com/What-does-an-Argument-in-Programming-mean "argument")
 
-It is necessary to have python 3.4 installed
+#### * What is the default program name when compiling with gcc
+> If -o flag is unused, the default is <a.out> executable
 
-## Classes in this project
+#### * What is the official Holberton C coding style and how to check your code with betty-style
+> The C coding style of Holberton school is Betty coding style. It's inspired by the Linux Kernel coding style. Cloning the repository allows the installing option of Betty. Is executed as a command, being the first argument and followed by the files to be reviewed. Betty shows the line and the space of errors, if is the case.
+> See [Betty's Wiki](https://github.com/holbertonschool/Betty/wiki "Betty") Also, you can clone it
 
-The following are the files used.
+#### * How to find the right header to include in your source code when using a standard library function
+> There's a easy answer to this question: RTFM
 
+#### * How does the main function influence the return value of the program
+> If the main function is not declared as void can return an specific value of successful execution or trouble. The values are conventional, but you can put any value of the type indicated at the entry point of the function.
 
-Place            | city_id, user_id, name     |
-Place            | description, number_rooms  |
-Place            | number_bathrooms,max_guest |
-Review           | place_id, user_id, text    |
+## Work log.
 
+##### - How to interact on Man Pages:
+> Search </, ?>, navigate <n> and other shortcuts
+> See <man --help>
 
-## Author
+##### - Concatenating commands to compile and execute program
+> <compile> && <./name>
+
+##### - Framework
+> Follow the framework and RTFM
+
+##### - Line wrapping commands
+> Continue the commands and string literals with many options. From double quotes to backslash
+> See [6-size.c](https://github.com/GaviriaAmaya/holbertonschool-low_level_programming/blob/master/0x00-hello_world/6-size.c "6-size.c") and [How do I write a multi-line string literal in C?](https://jameshfisher.com/2016/11/30/c-multiline-literal/ "How do I write a multi-line string literal in C?")
+
+## Authors.
 * Juan Amaya Gaviria.
+
+>>>>>>>>>>>>>>Holberton School; Cohort 8: Bog 2019
