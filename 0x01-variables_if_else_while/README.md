@@ -1,7 +1,7 @@
 <img src="https://camo.githubusercontent.com/c5d27ff0111c29e03f64bc98ffd377b21d294db6/68747470733a2f2f7777772e686f6c626572746f6e7363686f6f6c2e636f6d2f686f6c626572746f6e2d6c6f676f2d747769747465722d636172642e706e67">
 Holberton School; Cohort 8: Bog 2019
 
-# 0x00. Hello World
+# 0x01. C - Variables, if, else, while
 <img src="https://intranet.hbtn.io/assets/holberton-logo-default-f524735c3d53aec88994dbb6130b16941bb20dc6cd437c99209906fab967b834.png">
 
 ## Learning Objectives
@@ -38,24 +38,6 @@ Proving
 #### * What are the purpose of the gcc flags -m32 and -m64
 
 ## How to start
-
-1. Clone the repository
-
-```bash
-git clone https://github.com/GioRubioHolberton/AirBnB_clone.git
-```
-
-It is necessary to have python 3.4 installed
-
-## Classes in this project
-
-The following are the files used.
-
-
-Place            | city_id, user_id, name     |
-Place            | description, number_rooms  |
-Place            | number_bathrooms,max_guest |
-Review           | place_id, user_id, text    |
 
 
 ## Author
