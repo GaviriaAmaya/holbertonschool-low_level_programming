@@ -1,37 +1,29 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /**
-* main - Entry point
-*
-* Prints last digit of a random value of n
-*
-* Return: Always success (0)
-*/
-
+ * main - Program that takes the last digit of a random number
+ *
+ * Return: Always success (0)
+ */
 int main(void)
-
 {
-int n;
-int ender;
+	int n, mod;
+	char *c = "Last digit of", *g = "and is greater than 5",
+		*z = "and is 0", *l = "and is less than 6 and not 0";
 
-srand(time(0));
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	mod = n % 10;
 
-n = rand() - RAND_MAX / 2;
-ender = n % 10;
+	if (mod > 5)
+		printf("%s %i is %i %s\n", c, n, mod, g);
 
-if (ender > 5)
-{
-printf("Last digit of %d is %d and is greater than 5\n", n, ender);
-}
-else if (ender == 0)
-{
-printf("Last digit of %d is %d and is 0\n", n, ender);
-}
-else
-{
-printf("Last digit of %d is %d and is less than 6 and not 0\n", n, ender);
-}
-return (0);
+	else if (mod < 6 && mod != 0)
+		printf("%s %i is %i %s\n", c, n, mod, l);
+
+	else
+		printf("%s %i is %i %s\n", c, n, mod, z);
+
+	return (0);
 }
