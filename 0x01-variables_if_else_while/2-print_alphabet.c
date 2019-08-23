@@ -1,18 +1,20 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - Print the alphabet (Lowercase)
  *
- * Prints alphabet with putchar command
- *
- * Return: Always success (0)
+ * Return: Always Success (0)
  */
 int main(void)
 {
-char c;
-for (c = 'a'; c <= 'z' ; c++)
-putchar (c);
-putchar('\n');
-return (0);
+	int n = 97;
+
+	while (n >= 97 && n < 123)
+	{
+		putchar(n);
+		n++;
+	}
+
+	putchar('\n');
+
+	return (0);
 }
