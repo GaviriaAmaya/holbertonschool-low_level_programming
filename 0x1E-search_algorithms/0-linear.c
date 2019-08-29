@@ -4,17 +4,22 @@
  * @array: Pointer to data structure (Array type) to apply the algorithm
  * @size: Size of array
  * @value: Value to search
- *
  * Return: Index of the value, -1 if fails
  */
 int linear_search(int *array, size_t size, int value)
 {
 	size_t i = 0;
 
-	while(i < size)
+	if (*array)
 	{
-		printf(array[i]);
-		i++;
+		while(i < size)
+		{
+			if (array[i] == value)
+				return(i);
+			else
+				i++;
+		}
 	}
-	return(0);
+
+	return (-1);
 }
