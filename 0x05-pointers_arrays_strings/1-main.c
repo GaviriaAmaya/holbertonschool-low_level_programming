@@ -8,19 +8,13 @@
  */
 int main(void)
 {
-	char s1[98] = "Hello ";
-	char s2[] = "World!\n";
-	char *p;
+	int a;
+	int b;
 
-	printf("%s\n", s1);
-	printf("%s", s2);
-	p = _strncat(s1, s2, 1);
-	printf("%s\n", s1);
-	printf("%s", s2);
-	printf("%s\n", p);
-	p = _strncat(s1, s2, 1024);
-	printf("%s", s1);
-	printf("%s", s2);
-	printf("%s", p);
+	a = 98;
+	b = 42;
+	printf("a=%d, b=%d\n", a, b);
+	swap_int(&a, &b);
+	printf("a=%d, b=%d\n", a, b);
 	return (0);
 }

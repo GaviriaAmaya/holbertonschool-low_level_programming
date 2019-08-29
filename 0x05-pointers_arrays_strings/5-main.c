@@ -8,11 +8,10 @@
  */
 int main(void)
 {
-  char *str;
-  int len;
+	char s[10] = "Holberton";
 
-  str = "Holberton!";
-  len = _strlen(str);
-  printf("%d\n", len);
-  return (0);
+	printf("%s\n", s);
+	rev_string(s);
+	printf("%s\n", s);
+	return (0);
 }
