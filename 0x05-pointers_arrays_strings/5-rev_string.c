@@ -13,7 +13,8 @@ void rev_string(char *s)
 		len++;
 
 	len--;
-	while (len != 0)
+
+	while (i <= ((len / 2) + 1))
 	{
 		aux = s[i];
 		s[i] = s[len];
