@@ -9,7 +9,6 @@ if __name__ == '__main__':
     todo_payload = {'userId': argv[1]}
     todo_url = 'https://jsonplaceholder.typicode.com/todos'
     user_url = 'https://jsonplaceholder.typicode.com/users'
-
     user_req = requests.get(user_url, params=user_payload)
     user_json = user_req.json()
     for item in user_json:
