@@ -1,34 +1,25 @@
 #include <stdio.h>
 /**
- * main - Prints Fizz each 3 mult and Buzz each 5 mult
- *@f: Prints list of the numbers 1 to 100
- *
+ *main - Prints Fizz each 3 mult and Buzz each 5 mult
  *Return: Always success (0)
  */
-
 int main(void)
 {
-int f;
+	int counter = 1;
 
- for (f = 0; f <= 100; f++)
-   if ((f % 3) == 0 || (f % 5) == 0)
-   {
-     if ((f % 3) == 0)
-   {
-     printf("Fizz");
-   }
+	while (counter <= 100)
+	{
+		if (counter % 3 == 0 && counter % 5 == 0)
+			printf("FizzBuzz ");
+		else if (counter % 3 == 0)
+			printf("Fizz ");
+		else if (counter % 5 == 0)
+			printf("Buzz ");
+		else
+			printf("%d ", counter);
 
-     if ((f % 5) == 0)
-       {
-	 printf("Buzz");
-       }
-   }
+		counter++;
+	}
 
-   else
-   {
-   printf("%d ", f);
-   }
-putchar('\n');
-return (0);
+	return (0);
 }
-
