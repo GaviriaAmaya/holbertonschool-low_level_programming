@@ -11,14 +11,14 @@ int main(void)
 	{
 		if (counter % 3 == 0 && counter % 5 == 0)
 			printf("FizzBuzz ");
+		else if (counter == 100)
+			printf("Buzz\n");
 		else if (counter % 3 == 0)
 			printf("Fizz ");
 		else if (counter % 5 == 0)
 			printf("Buzz ");
-		else if (counter == 100)
-			printf("Buzz");
 		else
-			printf("%d ");
+			printf("%d ", counter);
 
 		counter++;
 	}
