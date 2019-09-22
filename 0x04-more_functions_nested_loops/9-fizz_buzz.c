@@ -15,8 +15,10 @@ int main(void)
 			printf("Fizz ");
 		else if (counter % 5 == 0)
 			printf("Buzz ");
+		else if (counter == 100)
+			printf("%d", counter);
 		else
-			printf("%d ", counter);
+			printf("%d ");
 
 		counter++;
 	}
