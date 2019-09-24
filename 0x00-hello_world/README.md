@@ -1,4 +1,4 @@
->>>>>>>>>><img src="https://camo.githubusercontent.com/c5d27ff0111c29e03f64bc98ffd377b21d294db6/68747470733a2f2f7777772e686f6c626572746f6e7363686f6f6c2e636f6d2f686f6c626572746f6e2d6c6f676f2d747769747465722d636172642e706e67">
+<img src="https://camo.githubusercontent.com/c5d27ff0111c29e03f64bc98ffd377b21d294db6/68747470733a2f2f7777772e686f6c626572746f6e7363686f6f6c2e636f6d2f686f6c626572746f6e2d6c6f676f2d747769747465722d636172642e706e67">
 
 # 0x00. Hello World
 
@@ -6,7 +6,7 @@
 With the development of this project you learn the following:
 
 #### * Why C programming is awesome
->C programming allows you to learn the logic of the programming and have better practices in a real world. If I'd have\ to learn to program again, I'd choose C for sure.
+>C programming allows you to learn the logic of the programming and have better practices in a real world. If I'd have to learn to program again, I'd choose C for sure.
 
 #### * Who invented C
 > Monsieur [Dennis Ritchie](https://en.wikipedia.org/wiki/Dennis_Ritchie "Dennis Ritchie")
@@ -24,8 +24,8 @@ With the development of this project you learn the following:
 #### * What is an entry point
 > Are the first intructions of a program, the procedure of starting. Generally is the use of <main>, but also some libraries allows certain functions and have to be loaded.
 
-#### * What is <main>
-> Main refers to the entry point of a program in C. Normally, <main> can receive arguments (argc and argv) and can return 1 or 0, or not return anything if is declared as <void>
+#### * What is `main`
+> Main refers to the entry point of a program in C. Normally, `main` can receive arguments (argc and argv) and can return 1 or 0, or not return anything if is declared as <void>
 
 #### * How to print text using printf, puts and putchar
 > All of those functions have similar syntax. At first is necesary the library <stdio.h> that allows to manage resulting operations on the standard input/output. The standard input is the physical resource that you use to communicate with the command prompt or your computer (Keyboard, as an example). The standard output shows operations through the screen or the command prompt.
@@ -35,7 +35,7 @@ With the development of this project you learn the following:
 > Sizeof operator can obtain size of many types, standard or created. This will be too important in allocations of memory and other operations tha implies the use of memory per type. The syntax is, basically <sizeof(type);> to obtain it. It should be saved on a variable to be used in a function.
 
 #### * How to compile using gcc
-> GCC is used as a normal command, being the firs argument itself and next arguments can be specific flags (as -Wall, see <man gcc>) or just the files to be compiled. Always will be a reference to the entry point main, so it's important to compile with the main file.
+> GCC is used as a normal command, being the firs argument itself and next arguments can be specific flags (as `-Wall`, see `man gcc`) or just the files to be compiled. Always will be a reference to the entry point main, so it's important to compile with the main file.
 > See [argument](https://www.quora.com/What-does-an-Argument-in-Programming-mean "argument")
 
 #### * What is the default program name when compiling with gcc
@@ -54,11 +54,11 @@ With the development of this project you learn the following:
 ## Work log.
 
 ##### - How to interact on Man Pages:
-> Search </, ?>, navigate <n> and other shortcuts
-> See <man --help>
+> Search `/`, `?`, navigate `n` and other shortcuts
+> See `man --help`
 
 ##### - Concatenating commands to compile and execute program
-> <compile> && <./name>
+> `compile` && `./[name]`
 
 ##### - Framework
 > Follow the framework and RTFM
@@ -70,4 +70,4 @@ With the development of this project you learn the following:
 ## Authors.
 * Juan Amaya Gaviria.
 
->>>>>>>>>>>>>>Holberton School; Cohort 8: Bog 2019
+Holberton School; Cohort 8: Bog 2019
