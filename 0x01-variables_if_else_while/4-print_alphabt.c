@@ -10,7 +10,10 @@ int main(void)
 	for (alphabet = 0; alphabet < 26; alphabet++)
 	{
 		if (alphabet == 4 || alphabet == 16)
-			alphabet++;
+	        {
+			alphabet += 1;
+			alphabet -= 1;
+		}		
 		else
 		    putchar(alphabet + 97);
 	}
