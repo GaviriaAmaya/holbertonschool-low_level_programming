@@ -13,7 +13,7 @@ int main(void)
 		{
 			alphabet += 1;
 			alphabet -= 1;
-		}		
+		}
 		else
 		    putchar(alphabet + 97);
 	}
