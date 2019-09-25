@@ -8,7 +8,7 @@ int main(void)
 	int alphabet;
 
 	for (alphabet = 0; alphabet < 26; alphabet++)
-        {
+	{
 		if (alphabet == 4 || alphabet == 16)
 			alphabet++;
 		else
