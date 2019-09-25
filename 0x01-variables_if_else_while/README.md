@@ -2,7 +2,6 @@
 Holberton School; Cohort 8: Bog 2019
 
 # 0x01. C - Variables, if, else, while
-<img src="https://intranet.hbtn.io/assets/holberton-logo-default-f524735c3d53aec88994dbb6130b16941bb20dc6cd437c99209906fab967b834.png">
 
 ## Learning Objectives
 With the development of this project you learn the following:
@@ -20,8 +19,7 @@ Slash            |    /    |Exact division symbol            |
 Percent          |    %    |Divides and operates with module |
 
 #### * What are the logical operators (sometimes called boolean operators) and how to use them
-
-Proving
+Logical operators are 
 
 #### * What the the relational operators and how to use them
 #### * What values are considered TRUE and FALSE in C
