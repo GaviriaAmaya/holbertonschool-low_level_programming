@@ -10,7 +10,7 @@ int main(void)
 	for (alphabet = 0; alphabet < 26; alphabet++)
 	{
 		if (alphabet == 4 || alphabet == 16)
-	        {
+		{
 			alphabet += 1;
 			alphabet -= 1;
 		}		
