@@ -9,15 +9,13 @@ int main(void)
 
 	for (number = 0; number < 10; number++)
 	{
+		putchar(number + 48);
+
 		if (number != 9)
 		{
-			putchar(number + 48);
 			putchar(',');
 			putchar(' ');
 		}
-		else
-			putchar(number + 48);
-
 	}
 	return (0);
 }
