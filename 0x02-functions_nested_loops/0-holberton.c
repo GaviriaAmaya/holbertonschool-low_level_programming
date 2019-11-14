@@ -1,21 +1,17 @@
 #include "holberton.h"
 /**
- * main - Prints the word Holberton
- * Return: On success 0
+ * main - Prints Holberton char by char
+ * Return: Always success
  */
-
-
 int main(void)
 {
-_putchar('H');
-_putchar('o');
-_putchar('l');
-_putchar('b');
-_putchar('e');
-_putchar('r');
-_putchar('t');
-_putchar('o');
-_putchar('n');
-_putchar('\n');
-return (0);
+	char *b = "Holberton";
+	int i;
+
+	for (i = 0; b[i] != '\0'; i++)
+		_putchar(b[i]);
+
+	_putchar('\n');
+
+	return (0);
 }
