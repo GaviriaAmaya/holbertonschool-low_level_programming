@@ -21,7 +21,15 @@ Percent          |    %    |Divides and operates with module |
 
 ### * What are the logical operators (sometimes called boolean operators) and how to use them
 
-Proving
+Logical operators are two symbols used to create logical relationships and comparisons. The right operand is compared with the left and
+can be as [Truth Tables](https://en.wikipedia.org/wiki/Truth_table "Truth Tables on Wikipedia")
+
+_Name_           | _Symbol_| _Description_                   |
+-----------------|---------|---------------------------------|
+Double Ampersand |   &&    |"And" operator                   |
+Double Bar       |   \|\|  |Means "Or".                      |
+Exclamation      |    !    |Stands for "Not"                 |
+
 
 ### * What the the relational operators and how to use them
 ### * What values are considered TRUE and FALSE in C
