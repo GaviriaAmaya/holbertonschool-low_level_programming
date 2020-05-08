@@ -1,70 +1,33 @@
 <img src="https://camo.githubusercontent.com/c5d27ff0111c29e03f64bc98ffd377b21d294db6/68747470733a2f2f7777772e686f6c626572746f6e7363686f6f6c2e636f6d2f686f6c626572746f6e2d6c6f676f2d747769747465722d636172642e706e67">
-Holberton School; Cohort 8: Bog 2019
 
-# 0x00. Hello World
-<background img src="https://intranet.hbtn.io/assets/holberton-logo-default-f524735c3d53aec88994dbb6130b16941bb20dc6cd437c99209906fab967b834.png">
+# Low Level Programming
 
-## Learning Objectives
-With the development of this project you learn the following:
+## Learning Objectives.
+In every project, learning objectives are answered to be an effective way to consolide the knowledge of each task or project
 
-### * What are the arithmetic operators and how to use them
+#### * C programming (Pending)
+C programming allows you to learn the logic of the programming and have better practices in a real world. If I'd have to learn to program again, I'd choose C for sure.
 
-Arithmetic operators are the very basic operators between two or more variables. These are addition, substraction, multiplication, division and modulus. Depending on what result you want to obtain, there are useful tools to do some procedures.
+#### * Compiled with ´gcc -Wall -pedantic -Werror -Wextra´ (Flags explaination pending)
+This is the way to compile your main C file. GCC is the GNU Compiler Collection. Works translating the Super High Level instructions (Human readable programming) into binary, passing through the preprocessing process, the compile process, the assembler code and linking.\
+See [Grace Hopper](https://en.wikipedia.org/wiki/Grace_Hopper "Grace Hopper") (Yes, this is in your honor!)\
+Also [this](https://medium.com/@729_78111/gcc-compile-et-impera-518d91cd25c1 "this")
 
-_Name_           | _Symbol_| _Description_                   |
------------------|---------|---------------------------------|
-Plus             |    +    |Calculates the adition operation |
-Minus            |    -    |Performs the substraction        |
-Asterisk         |    *    |Multiplication sign              |
-Slash            |    /    |Exact division symbol            |
-Percent          |    %    |Divides and operates with module |
+#### * Holberton coding style: Betty
+The C coding style of Holberton school is Betty coding style. It's inspired by the Linux Kernel coding style. Cloning the repository allows the installing option of Betty. Is executed as a command, being the first argument and followed by the files to be reviewed. Betty shows the line and the space of errors, if it's the case.\
+See [Betty's Wiki](https://github.com/holbertonschool/Betty/wiki "Betty") Also, you can clone it
 
-### * What are the logical operators (sometimes called boolean operators) and how to use them
-
-Logical operators are two symbols used to create logical relationships and comparisons. The right operand is compared with the left and
-can be as [Truth Tables](https://en.wikipedia.org/wiki/Truth_table "Truth Tables on Wikipedia")
-
-_Name_           | _Symbol_| _Description_                   |
------------------|---------|---------------------------------|
-Double Ampersand |   &&    |"And" operator                   |
-Double Bar       |   \|\|  |Means "Or".                      |
-Exclamation      |    !    |Stands for "Not"                 |
-
-
-### * What the the relational operators and how to use them
-### * What values are considered TRUE and FALSE in C
-### * What are the boolean operators and how to use them
-### * How to use the if, if ... else statements
-### * How to use comments
-### * How to declare variables of types char, int, unsigned int
-### * How to assign values to variables
-### * How to print the values of variables of type char, int, unsigned int with printf
-### * How to use the while loop
-### * How to use variables with the while loop
-### * How to print variables using printf
-### * What is the ASCII character set
-### * What are the purpose of the gcc flags -m32 and -m64
-
-## How to start
-
-1. Clone the repository
-
-```bash
-git clone https://github.com/GioRubioHolberton/AirBnB_clone.git
+## Captain's log.
+This section is dedicated to aha moments, some own troubleshooting, obvious things and knowledge for myself and others.
+#### - README.md template
+This is, for me, an academic template for all my README. Here I can use [links](about:blank), inline `code`
+```c
+Code snippets
 ```
-
-It is necessary to have python 3.4 installed
-
-## Classes in this project
-
-The following are the files used.
+And other shortcuts to write better README.
 
 
-Place            | city_id, user_id, name     |
-Place            | description, number_rooms  |
-Place            | number_bathrooms,max_guest |
-Review           | place_id, user_id, text    |
+## Authors.
+* Juan Amaya Gaviria. [GaviriaAmaya](github.com/GaviriaAmaya/).
 
-
-## Author
-* Juan Amaya Gaviria.
+Holberton School; Cohort 8: Bog 2019
