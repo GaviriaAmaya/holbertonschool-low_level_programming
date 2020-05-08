@@ -9,7 +9,7 @@ Structures are data from different types that are defined by the user.
 
 ### * How to use `typedef`
 `typedef` is a reserved keyword that allows to replace an user defined type for a word that represents that data type.\
-It is very useful to define structures data types as an unique word that inhetits properties and values.\
+It is very useful to define structures data types as an unique word that inherits properties and values.\
 `typedef` is used:
 ```c
 /**
@@ -40,6 +40,10 @@ typedef struct Mammal
 Yes, you can code as BSD standard with VSCode. Just click on the right inferior corner button "Space size: 4". It allows you to select from tabs and the amount.
 Also, you can go to the settings with `Ctrl` + `,` to access configuration. Then type "Spaces". Uncheck the "Editor: Insert Spaces" and, at your choice, edit the indentation amount. This sets by default the tab as a tabulation :3\
 You can acces to [this StackOverflow answers](https://stackoverflow.com/questions/36814642/convert-spaces-to-tabs)
+
+### `Typedef` and `alias`
+Both `typedef` (C reserved word) and `alias` (Shell command) works the same. You put a name for a data type that works as the new name or the old name. Also, if use `alias`, the command or query iworks as if you put the new alias as you put the entire function
+
 
 ## Author
 * Juan Amaya Gaviria. [GaviriaAmaya](https://github.com/GaviriaAmaya)
